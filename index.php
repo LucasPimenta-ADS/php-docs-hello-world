@@ -1,7 +1,8 @@
 <?php
-
-echo "Hello World!";
-
+$nome = "João Silva";
+$profissao = "Desenvolvedor Web";
+$sobre = "Sou um apaixonado por tecnologia e desenvolvimento de software. Trabalho com PHP, JavaScript e banco de dados.";
+$foto = "lucas.jpeg"; // Coloque sua imagem na mesma pasta com esse nome
 ?>
 
 <!DOCTYPE html>
@@ -43,10 +44,13 @@ echo "Hello World!";
 </head>
 <body>
     <div class="container">
-        <img src="<?php echo $foto; ?>" alt="Foto de <?php echo $nome; ?>">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/lucas.jpeg" >
         <h1><?php echo $nome; ?></h1>
         <h2><?php echo $profissao; ?></h2>
         <p><?php echo $sobre; ?></p>
     </div>
 </body>
 </html>
+
+
+
