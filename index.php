@@ -1,5 +1,5 @@
 <?php
-$nome = "Lucas Vito Fernandes Pimenta";
+$nome = "Lucas Vitor Fernandes Pimenta";
 $profissao = "Assitente de Finanças";
 $sobre = "Sou um apaixonado por tecnologia e finanças. Trabalho com Análise financeira e busco unir as duas áreas com soluções inovadoras.";
 $foto = "img/lucas.jpeg";
