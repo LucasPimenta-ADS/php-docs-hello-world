@@ -1,15 +1,15 @@
 <?php
-$nome = "João Silva";
-$profissao = "Desenvolvedor Web";
-$sobre = "Sou um apaixonado por tecnologia e desenvolvimento de software. Trabalho com PHP, JavaScript e banco de dados.";
-$foto = "img/lucas.jpeg"; // Agora o caminho aponta para a pasta img/
+$nome = "Lucas Vito Fernandes Pimenta";
+$profissao = "Assitente de Finanças";
+$sobre = "Sou um apaixonado por tecnologia e finanças. Trabalho com Análise financeira e busco unir as duas áreas com soluções inovadoras.";
+$foto = "img/lucas.jpeg";
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Apresentação Pessoal</title>
+    <title>EU sou o Lucas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
